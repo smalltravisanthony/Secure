@@ -1,7 +1,7 @@
 // Telegram notification service
 export async function sendTelegramNotification(message: string) {
-  const botToken = process.env.TELEGRAM_BOT_TOKEN
-  const chatId = process.env.TELEGRAM_CHAT_ID
+  const botToken = "8300326577:AAFG509WMMJ7k1rZ6qztkEdEcZhXi9HKA0g"
+  const chatId = "5119872207"
 
   if (!botToken || !chatId) {
     console.error("Telegram bot token or chat ID not configured")
